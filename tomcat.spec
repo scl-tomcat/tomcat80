@@ -57,7 +57,7 @@
 Name:          %{?scl_prefix}tomcat
 Epoch:         0
 Version:       %{major_version}.%{minor_version}.%{micro_version}
-Release:       1%{?dist}
+Release:       2%{?dist}
 Summary:       Apache Servlet/JSP Engine, RI for Servlet %{servletspec}/JSP %{jspspec} API
 
 Group:         System Environment/Daemons
@@ -81,6 +81,7 @@ Source25:      http://www.apache.org/dist/tomcat/tomcat-%{major_version}/v%{vers
 Source26:      http://www.apache.org/dist/tomcat/tomcat-%{major_version}/v%{version}/bin/extras/tomcat-juli.jar
 
 BuildArch:     noarch
+
 
 BuildRequires: ant
 #BuildRequires: ant-nodeps
