@@ -269,8 +269,7 @@ export OPT_JAR_LIST="xalan-j2-serializer"
 
     # remove some jars that we'll replace with symlinks later
    %{__rm} output/build/bin/commons-daemon.jar \
-           output/build/lib/ecj.jar \
-           output/build/lib/apache-commons-dbcp.jar
+           output/build/lib/ecj.jar
 
     # remove the cruft we created
    %{__rm} output/build/bin/tomcat-native.tar.gz
